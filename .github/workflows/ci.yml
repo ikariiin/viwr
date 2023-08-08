@@ -36,8 +36,8 @@ jobs:
       - name: 🔨 Build
         run: yarn build:ci
 
-      # - name: 🧪 Test
-      #   run: yarn test:ci
+      - name: 🧪 Test
+        run: yarn test:ci
 
       # Upload dist artifacts
       - uses: actions/upload-artifact@v3
