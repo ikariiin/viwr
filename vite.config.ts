@@ -10,4 +10,11 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
+  test: {
+    coverage: {
+      provider: "v8",
+      reporter: ["lcov", "html"],
+    },
+    passWithNoTests: true,
+  },
 });
