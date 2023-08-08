@@ -4,7 +4,7 @@
   "description": "React + TypeScript + Vite + Github Actions starter template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pchmn/vite-react-ts-ghactions-template.git"
+    "url": "git+https://github.com/ikariiin/viwr"
   },
   "keywords": [
     "react",
@@ -13,9 +13,9 @@
     "template",
     "ghactions"
   ],
-  "author": "pchmn",
+  "author": "ikariiin",
   "license": "MIT",
-  "homepage": "https://github.com/pchmn/vite-react-ts-ghactions-template",
+  "homepage": "https://viwr.ikarin.xyz",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
